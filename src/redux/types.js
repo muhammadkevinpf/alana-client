@@ -1,0 +1,24 @@
+// user types
+export const SET_AUTHENTICATED = "SET_AUTHENTICATED";
+export const SET_UNAUTHENTICATED = "SET_UNAUTHENTICATED";
+export const SET_USER = "SET_USER";
+export const LOADING_USER = "LOADING_USER";
+export const ORDER_PRODUCT = "ORDER_PRODUCT";
+export const ORDER_APPOINTMENT = "ORDER_APPOINTMENT";
+export const SET_APPOINTMENT = "SET_APPOINTMENT";
+export const PAY_PRODUCTS = "PAY_PRODUCTS";
+
+// ui types
+export const SET_ERRORS = "SET_ERRORS";
+export const LOADING_UI = "LOADING_UI";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+export const LOADING_DATA = "LOADING_DATA";
+export const STOP_LOADING_DATA = "STOP_LOADING_DATA";
+export const STOP_LOADING_UI = "STOP_LOADING_UI";
+
+// services types
+export const SET_SERVICES = "SET_SERVICES";
+export const SET_TREATMENTS = "SET_TREATMENTS";
+export const SET_PRODUCTS = "SET_PRODUCTS";
+export const SET_BAG_PRODUCTS = "SET_BAG_PRODUCTS";
+export const SET_ORDERED_PRODUCTS = "SET_ORDERED_PRODUCTS";
